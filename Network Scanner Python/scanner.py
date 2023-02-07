@@ -12,7 +12,7 @@ def scan_network(ip_range):
     for i in range(1, 256):
         ip = ip_range + str(i)
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sock.settimeout(1)
+        sock.settimeout(0.01)
         result = sock.connect_ex((ip, 135))
         if result == 0:
             print(f"{ip} is active. Hostname: {get_host_name(ip)}")
