@@ -12,7 +12,7 @@ To run the script, open a terminal and navigate to the directory where the scrip
 python network_scanner.py `<network_prefix>`
 ```
 
-Replace `<network_prefix>` with the network prefix of the network you want to scan. For example, to scan the network 192.168.1., use the following command:
+Replace `<network_prefix>` with the network prefix of the network you want to scan. For example, to scan the network `192.168.1.`, use the following command:
 
 ```
 python network_scanner.py 192.168.1.
