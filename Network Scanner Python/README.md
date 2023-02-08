@@ -9,13 +9,13 @@ This is a basic network scanner written in Python. The script takes a network pr
 To run the script, open a terminal and navigate to the directory where the script is located. Then, run the following command:
 
 ```
-python network_scanner.py `<network_prefix>`
+python scanner.py `<network_prefix>`
 ```
 
 Replace `<network_prefix>` with the network prefix of the network you want to scan. For example, to scan the network `192.168.1.`, use the following command:
 
 ```
-python network_scanner.py 192.168.1.
+python scanner.py 192.168.1.
 ```
 
 The script will scan the network and print the results to the terminal. The results will show the IP addresses of active devices on the network and their hostnames (if available).
